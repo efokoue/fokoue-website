@@ -116,6 +116,9 @@ footer #slideshow hr {
 footer #tweet {
   width: 265px;
 }
+footer #tweet h2 {
+  margin-top: 1rem;
+}
 footer h2 {
   font-weight: 400;
 }

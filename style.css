@@ -116,6 +116,9 @@ footer #slideshow hr {
 footer #tweet {
   width: 265px;
 }
+footer #tweet h2 {
+  margin-top: 1rem;
+}
 footer h2 {
   font-weight: 400;
 }
@@ -133,16 +136,29 @@ main .splash {
   margin: 0 -1rem;
   background-image: url("images/cover-mountain.jpg");
   display: flex;
-  flex-direction: row-reverse;
   background-position: center;
   background-size: cover;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 main .splash .introduction {
-  margin: 1rem;
+  margin: 3rem 1rem;
   padding: 1rem;
   max-width: 40%;
   background-color: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+main .splash .image {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 0;
+}
+main .splash .image img {
+  width: 200px;
+  box-shadow: 0px 0px 0px 4px white, 0px 0px 8px 4px rgba(7, 7, 7, 0.2);
 }
 main .cards {
   display: flex;
