@@ -12,3 +12,6 @@ lessc ./pages/publications.less ../publications/style.css
 
 # cv
 lessc ./pages/cv.less ../cv/style.css
+
+# media
+lessc ./pages/media.less ../media/style.css
