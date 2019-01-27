@@ -10,5 +10,5 @@ lessc ./pages/home.less ../style.css
 # Publications
 lessc ./pages/publications.less ../publications/style.css
 
-# Supporting Pages
-# lessc ./pages/generic.less ../eboard/style.css
+# cv
+lessc ./pages/cv.less ../cv/style.css
