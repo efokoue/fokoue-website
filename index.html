@@ -21,11 +21,6 @@
 		<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
 		<!-- Activate Slider -->
 		<script>jQuery(function($) {$('.slider').sss();});</script>
-		<script>
-		$(function(){
-			$("#footer").load("footer.html");
-		});
-		</script>
 	</head>
 	<body>
 		<!-- Header Section -->
@@ -111,9 +106,72 @@
 			</main>
 
 			<!-- The footer contains additional information -->
-			<footer id="footer">
+			<footer>
 
-				
+				<!-- Multiple-Column section -->
+				<div class="multi-col">
+					<div class="col">
+						<div id="contact">
+							<h2>Contact</h2>
+							<hr>
+							<div id="medium">
+								<span>Phone: (585) 475 7525</span>
+								<span>Fax: (585) 475 5959</span>
+								<span>email: <a href="mailto:epfeqa@rit.edu">epfeqa@rit.edu</a></span>
+							</div>
+							<div id="address">
+								Room 2517, Hugh Carey Building
+								<br>
+								98 Lomb Memorial Drive
+								<br>
+								Rochester, NY 14623
+							</div>
+						</div>
+						<div id="tweet">
+							<h2>News</h2>
+							<hr>
+							<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">I speak today about <a href="https://t.co/UszIO51eAL">https://t.co/UszIO51eAL</a> at the <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> seminar of Rochester Inst. of Tech. <a href="https://twitter.com/RITNEWS?ref_src=twsrc%5Etfw">@RITNEWS</a> (by Skype, a 1st time for me!)</p>&mdash; Charles Bouveyron (@cbouveyron) <a href="https://twitter.com/cbouveyron/status/807137029314252800?ref_src=twsrc%5Etfw">December 9, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+					</div>
+					<div class="col">
+						<div id="travel">
+							<h2>Upcoming Travel</h2>
+							<hr>
+							<p>
+								<b>Event Title,</b> Month Day 2018.<br>
+								City, State. Role.
+							</p>
+							<p>
+								<b>Event Title,</b> Month Day 2018.<br>
+								City, State. Role.
+							</p>
+							<p>
+								<b>Event Title,</b> Month Day 2018.<br>
+								City, State. Role.
+							</p>
+						</div>
+						<div id="slideshow">
+							<hr>
+							<div class="slider">
+								<img src="./images/EliDaddyLaughing1.jpg" alt="">
+								<img src="./images/Eli.piano.JPG" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div id="twitter">
+							<a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/ErnestFokoue?ref_src=twsrc%5Etfw">Tweets by ErnestFokoue</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+					</div>
+
+				<!-- End Columns -->
+				</div>
+
+				<!-- sub-footer for copyright info-->
+				<div id="copyright">
+					<hr>
+					&copy; Ethan Witherington
+				</div>
 
 			<!-- End Footer -->
 			</footer>
