@@ -11,7 +11,7 @@
 @color_accent: #14709d;
 @color_accent2: #2d3642;
 
-@width: 920px;
+@width: 1000px;
 
 // font-family: 'Source Sans Pro', sans-serif;
 
@@ -28,7 +28,7 @@ body{
 }
 
 header{
-	margin: 2.5rem 0;
+	margin: 3rem 0;
 	.width{
 		max-width: @width;
 		margin: 0 auto;
@@ -36,8 +36,9 @@ header{
 		padding: 0 1rem;
 		box-sizing: border-box;
 		h1{
-			font-size: 2.75rem;
+			font-size: 3rem;
 			font-weight: 400;
+			margin-bottom: 1rem;
 		}
 		p{
 			font-size: 1.5rem;
@@ -51,7 +52,7 @@ nav{
 	.width{
 		max-width: @width;
 		margin: 0 auto;
-		padding: 0 1rem;
+		padding: 0 1.5rem;
 		background-color: @color_accent2;
 		display: flex;
 		justify-content:flex-start;
@@ -59,7 +60,7 @@ nav{
 		z-index: 2;
 		a{
 			color: @color_white;
-			padding: 1rem;
+			padding: 1.5rem;
 			display: block;
 			text-decoration: none;
 			&:hover{
@@ -67,6 +68,9 @@ nav{
 			}
 			&.selected{
 				text-decoration: underline;
+			}
+			&:first-child{
+				//margin-left: -1.5rem;
 			}
 		}
 	}
@@ -86,12 +90,14 @@ main{
 	p{
 		line-height: 1.2rem;
 		font-size: 1rem;
+		font-weight: 200;
 		margin: 1rem 0;
 	}
 	h2{
 		color: @color_accent;
 		font-weight: 400;
 		margin: 1rem 0;
+		font-size: 1.75rem;
 	}
 	ul{
 		padding-left: 1.5rem;

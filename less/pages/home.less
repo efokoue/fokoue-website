@@ -29,7 +29,7 @@ main{
 			flex: 1 0 0;
 			img{
 				//display: none;
-				width: 200px;
+				width: 250px;
 				// border-radius: 50%;
 				box-shadow: 0px 0px 0px 4px white,
 					0px 0px 8px 4px fade(@color_black, 20%);
@@ -39,10 +39,11 @@ main{
 	.cards{
 		display: flex;
 		margin: 0 -1rem;
+		flex-wrap: wrap;
 		.card{
 			background-color: @color_white;
 			flex-grow: 1;
-			flex-basis: 0;
+			flex-basis: 30%;
 			margin: 1rem;
 			box-shadow: 0px 0px 8px 0px fade(@color_black, 20%);
 			padding: 1rem;

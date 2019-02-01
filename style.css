@@ -8,18 +8,19 @@ body {
   padding: 0 1rem;
 }
 header {
-  margin: 2.5rem 0;
+  margin: 3rem 0;
 }
 header .width {
-  max-width: 920px;
+  max-width: 1000px;
   margin: 0 auto;
   color: #333;
   padding: 0 1rem;
   box-sizing: border-box;
 }
 header .width h1 {
-  font-size: 2.75rem;
+  font-size: 3rem;
   font-weight: 400;
+  margin-bottom: 1rem;
 }
 header .width p {
   font-size: 1.5rem;
@@ -27,9 +28,9 @@ header .width p {
   font-style: italic;
 }
 nav .width {
-  max-width: 920px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   background-color: #2d3642;
   display: flex;
   justify-content: flex-start;
@@ -38,7 +39,7 @@ nav .width {
 }
 nav .width a {
   color: #FFFFFF;
-  padding: 1rem;
+  padding: 1.5rem;
   display: block;
   text-decoration: none;
 }
@@ -49,7 +50,7 @@ nav .width a.selected {
   text-decoration: underline;
 }
 body > .width {
-  max-width: 920px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 8px 0px rgba(7, 7, 7, 0.3);
@@ -62,12 +63,14 @@ main {
 main p {
   line-height: 1.2rem;
   font-size: 1rem;
+  font-weight: 200;
   margin: 1rem 0;
 }
 main h2 {
   color: #14709d;
   font-weight: 400;
   margin: 1rem 0;
+  font-size: 1.75rem;
 }
 main ul {
   padding-left: 1.5rem;
@@ -157,17 +160,18 @@ main .splash .image {
   flex: 1 0 0;
 }
 main .splash .image img {
-  width: 200px;
+  width: 250px;
   box-shadow: 0px 0px 0px 4px white, 0px 0px 8px 4px rgba(7, 7, 7, 0.2);
 }
 main .cards {
   display: flex;
   margin: 0 -1rem;
+  flex-wrap: wrap;
 }
 main .cards .card {
   background-color: #FFFFFF;
   flex-grow: 1;
-  flex-basis: 0;
+  flex-basis: 30%;
   margin: 1rem;
   box-shadow: 0px 0px 8px 0px rgba(7, 7, 7, 0.2);
   padding: 1rem;
