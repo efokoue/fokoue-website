@@ -84,6 +84,21 @@ main .card {
   box-shadow: 0px 0px 8px 0px rgba(7, 7, 7, 0.2);
   padding: 1rem;
 }
+main .quote {
+  background-color: rgba(7, 7, 7, 0.1);
+  padding: 1rem;
+  border-left: 4px solid rgba(7, 7, 7, 0.2);
+  font-style: italic;
+  color: #6d6d6d;
+}
+main .two-columns {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+main .two-columns .column {
+  flex: 1 1 50%;
+  margin: 0 0.5rem;
+}
 footer {
   background-color: #2d3642;
   color: #FFFFFF;
@@ -163,16 +178,11 @@ main .splash .image img {
   width: 250px;
   box-shadow: 0px 0px 0px 4px white, 0px 0px 8px 4px rgba(7, 7, 7, 0.2);
 }
-main .cards {
-  display: flex;
-  margin: 0 -1rem;
-  flex-wrap: wrap;
+main #book-img {
+  float: right;
+  margin-left: 1rem;
+  height: 300px;
 }
-main .cards .card {
-  background-color: #FFFFFF;
-  flex-grow: 1;
-  flex-basis: 30%;
-  margin: 1rem;
-  box-shadow: 0px 0px 8px 0px rgba(7, 7, 7, 0.2);
-  padding: 1rem;
+main #clearfix {
+  clear: both;
 }

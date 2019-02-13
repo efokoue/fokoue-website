@@ -111,6 +111,21 @@ main{
         box-shadow: 0px 0px 8px 0px fade(@color_black, 20%);
         padding: 1rem;
     }
+	.quote{
+		background-color: fade( @color_black, 10%);
+		padding: 1rem;
+		border-left: 4px solid fade( @color_black, 20%);
+		font-style: italic;
+		color: lighten(@color_black, 40%);
+	}
+	.two-columns{
+		display: flex;
+		margin: 0 -0.5rem;
+		.column{
+			flex: 1 1 50%;
+  			margin: 0 0.5rem;
+		}
+	}
 }
 
 footer{
