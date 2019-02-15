@@ -36,6 +36,7 @@ nav .width {
   justify-content: flex-start;
   position: relative;
   z-index: 2;
+  flex-wrap: wrap;
 }
 nav .width a {
   color: #FFFFFF;
